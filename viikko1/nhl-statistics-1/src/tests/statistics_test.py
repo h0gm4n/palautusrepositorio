@@ -22,9 +22,21 @@ class TestStatistics(unittest.TestCase):
         )
 
     def test_search_toimii(self):
-        self.search = self.statistics.search("S")
+        self.search = self.statistics.search("Semenko")
 
         self.assertEqual(str(self.search), "Semenko EDM 4 + 12 = 16")
+
+
+    def test_tiimihaku_toimii(self):
+        self.teamsearch = self.statistics.team("EDM")
+
+        self.assertEqual(len(self.teamsearch), 3)
+
+    def test_sorttaus_toimii(self):
+
+        self.sort = self.statistics.top(0)
+
+        self.assertEqual(len(self.sort), 1)
 
 
 
