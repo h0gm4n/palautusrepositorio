@@ -1,5 +1,5 @@
 from entities.user import User
-
+import re
 
 class UserInputError(Exception):
     pass
@@ -36,5 +36,14 @@ class UserService:
     def validate(self, username, password):
         if not username or not password:
             raise UserInputError("Username and password are required")
+
+        if len(username) < 3:
+            raise UserInputError("Username too short")
+
+        if len(password) < 8:
+            raise UserInputError("Password too short")
+
+        if not bool(re.match('^(?=.*[0-9]$)(?=.*[a-zA-Z])', password)):
+            raise UserInputError("Password should contain at least one number")
 
         # toteuta loput tarkastukset tänne ja nosta virhe virhetilanteissa

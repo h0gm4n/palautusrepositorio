@@ -34,3 +34,5 @@ class AppLibrary:
 
     def login_app(self):
         self._user_service.check_credentials("kalle", "kalle124")
+
+
