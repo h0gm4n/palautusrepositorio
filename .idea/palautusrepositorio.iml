@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/viikko4/maksukortti-mock/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/viikko4/mock-demo/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/viikko4/verkkokauppa/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/viikko4/tdd-ostoskori/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
