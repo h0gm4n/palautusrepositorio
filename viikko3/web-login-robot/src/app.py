@@ -13,6 +13,8 @@ from services.user_service import user_service
 app = Flask(__name__)
 app.secret_key = "MXRg2upmZGaSR~2nMaGmiwW0o.lg_w"
 
+from selenium import webdriver
+driver = webdriver.Chrome('/usr/local/bin/chromedriver')
 
 def redirect_to_login():
     return redirect(url_for("render_login"))
