@@ -3,6 +3,9 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/viikko3/login-robot/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/viikko4/maksukortti-mock/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/viikko4/mock-demo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/viikko4/verkkokauppa/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
