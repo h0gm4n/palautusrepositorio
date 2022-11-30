@@ -44,7 +44,7 @@ class TennisGame:
         return self.game_cases_under_4[player1_score] + "-" + self.game_cases_under_4[player2_score]
 
     def get_score(self):
-        
+
         if self.m_score1 == self.m_score2:
             score = self.game_is_a_tie(self.m_score1)
 
